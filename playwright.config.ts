@@ -44,7 +44,7 @@ export default defineConfig({
    ["allure-playwright"],
  ['@reportportal/agent-js-playwright', RPconfig]  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
-  globalSetup: require.resolve('./tests/utils/global-setup'),
+  // globalSetup: require.resolve('./tests/utils/global-setup'),
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
@@ -53,8 +53,8 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    baseURL:"https://opensource-demo.orangehrmlive.com",
-    storageState: 'storageState.json',
+    // baseURL:"https://opensource-demo.orangehrmlive.com",
+    // storageState: 'storageState.json',
   },
 
   /* Configure projects for major browsers */
