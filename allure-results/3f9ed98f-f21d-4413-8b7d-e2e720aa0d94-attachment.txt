@@ -1,0 +1,108 @@
+before all tests
+before each test
+{
+  data: [
+    {
+      empNumber: 180,
+      lastName: '232',
+      firstName: '213',
+      middleName: '232',
+      employeeId: '0378',
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    },
+    {
+      empNumber: 188,
+      lastName: 'ccc',
+      firstName: 'aaa',
+      middleName: 'bbb',
+      employeeId: null,
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    },
+    {
+      empNumber: 7,
+      lastName: 'Rodriguez',
+      firstName: 'Carlos',
+      middleName: 'Alberto',
+      employeeId: 'muser',
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    },
+    {
+      empNumber: 187,
+      lastName: 'BadRule',
+      firstName: 'GoodBye',
+      middleName: 'LastConner',
+      employeeId: '3483',
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    },
+    {
+      empNumber: 181,
+      lastName: 'BadRuleLastConner',
+      firstName: 'GoodBye',
+      middleName: 'LastConnerBadRule',
+      employeeId: '0379',
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    },
+    {
+      empNumber: 186,
+      lastName: 'BadRuleLastConner',
+      firstName: 'GoodByeGoodBye',
+      middleName: 'LastConnerBadRule',
+      employeeId: '0383',
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    },
+    {
+      empNumber: 182,
+      lastName: 'Singh',
+      firstName: 'Rakesh',
+      middleName: 'Kumar',
+      employeeId: '108',
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    },
+    {
+      empNumber: 185,
+      lastName: 'Hossam',
+      firstName: 'Youssef',
+      middleName: '',
+      employeeId: '0903',
+      terminationId: null,
+      jobTitle: [Object],
+      subunit: [Object],
+      empStatus: [Object],
+      supervisors: []
+    }
+  ],
+  meta: { total: 8 },
+  rels: []
+}
+180
+{ data: [ '180' ], meta: [], rels: [] }
+after each test
+after all tests
