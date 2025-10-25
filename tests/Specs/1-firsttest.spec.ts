@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 
 
 
-test.describe('login page', () => {
+test.describe('login page @ft', () => {
 test('valid login', async ({ page }) => {
 
   await page.goto('https://practice.expandtesting.com/login')
